@@ -1,0 +1,19 @@
+{
+    "title": "Mathematics: Argument of a Complex Number",
+    "slug": "maths-complex-argument",
+    "description": "Introduces the argument of a complex number as the angle it makes with the positive real axis on the complex plane, computed from the real and imaginary parts using inverse trigonometry, including the handling of different quadrants.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "maths"
+    ],
+    "duration": 3,
+    "prerequisites": [
+        "maths-complex-plane",
+        "maths-trigonometry-sine-cosine"
+    ],
+    "related": [
+        "maths-complex-modulus"
+    ]
+}
