@@ -10,7 +10,8 @@
     ],
     "duration": 3,
     "prerequisites": [
-        "maths-complex-plane"
+        "maths-complex-plane",
+        "maths-interval-notation"
     ],
     "related": [
         "maths-complex-modulus",
