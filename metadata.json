@@ -10,10 +10,10 @@
     ],
     "duration": 3,
     "prerequisites": [
-        "maths-complex-plane",
-        "maths-trigonometry-sine-cosine"
+        "maths-complex-plane"
     ],
     "related": [
-        "maths-complex-modulus"
+        "maths-complex-modulus",
+        "maths-complex-polar-form"
     ]
 }
