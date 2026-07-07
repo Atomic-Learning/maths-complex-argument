@@ -5,7 +5,6 @@ Outputs to complex-argument.png in the same directory.
 """
 
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 import numpy as np
 
 # Create figure with subplots showing different quadrants
