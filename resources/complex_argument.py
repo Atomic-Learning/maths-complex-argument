@@ -68,11 +68,6 @@ for idx, (real, imag, label, ax_idx) in enumerate(examples):
     ax.text(0.02, 0.98, arg_text, transform=ax.transAxes, fontsize=10, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.7),
             verticalalignment='top')
-    
-    # Mark quadrant
-    quadrant_names = ['Quadrant I: 0 to $\\frac{\\pi}{2}$ rad (0° to 90°)', 'Quadrant II: $\\frac{\\pi}{2}$ rad to $\\pi$ rad (90° to 180°)', 'Quadrant III: -$\\pi$ rad to -$\\frac{\\pi}{2}$ rad (-180° to -90°)', 'Quadrant IV: -$\\frac{\\pi}{2}$ rad to 0 rad (-90° to 0°)']
-    ax.text(0.02, 0.88, quadrant_names[ax_idx], transform=ax.transAxes, fontsize=9, style='italic',
-            bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.5))
 
 plt.tight_layout()
 plt.savefig('complex-argument.png', dpi=150, bbox_inches='tight', facecolor='white')
