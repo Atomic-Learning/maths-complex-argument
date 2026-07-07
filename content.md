@@ -8,10 +8,10 @@ On the complex plane, imagine a ray starting at the origin and pointing to the c
 
 Notice that:
 
-- In **Quadrant I** (positive real and imaginary parts), the argument is between $0°$ and $90°$ (or $0$ to $\pi/2$ radians)
-- In **Quadrant II** (negative real, positive imaginary), the argument is between $90°$ and $180°$ (or $\pi/2$ to $\pi$ radians)
-- In **Quadrant III** (negative real and imaginary), the argument is between $-180°$ and $-90°$ (or $-\pi$ to $-\pi/2$ radians)
-- In **Quadrant IV** (positive real, negative imaginary), the argument is between $-90°$ and $0°$ (or $-\pi/2$ to $0$ radians)
+- In **Quadrant I** (positive real and imaginary parts), the argument is between $0$ to $\pi/2$ radians (0° to 90°)
+- In **Quadrant II** (negative real, positive imaginary), the argument is between $\pi/2$ to $\pi$ radians (90° to 180°)
+- In **Quadrant III** (negative real and imaginary), the argument is between $-\pi$ to $-\pi/2$ radians (-180° to -90°)
+- In **Quadrant IV** (positive real, negative imaginary), the argument is between $-\pi/2$ to $0$ radians (-90° to 0°)
 
 # Principal Value
 

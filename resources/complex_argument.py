@@ -9,7 +9,6 @@ import numpy as np
 
 # Create figure with subplots showing different quadrants
 fig, axes = plt.subplots(2, 2, figsize=(12, 12), dpi=150)
-fig.suptitle('Argument of a Complex Number (Angle from Positive Real Axis)', fontsize=14, fontweight='bold', y=0.995)
 
 # Define example complex numbers in each quadrant
 examples = [
@@ -61,17 +60,17 @@ for idx, (real, imag, label, ax_idx) in enumerate(examples):
     ax.text(angle_label_x, angle_label_y, r'$\arg(z)$', fontsize=11, color='blue', fontweight='bold')
     
     # Label the point
-    ax.text(real + 0.3, imag + 0.3, label, fontsize=11, fontweight='bold',
+    ax.text(real + 0.3, imag - 0.3, label, fontsize=11, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7))
     
     # Show computed argument
-    arg_text = f'arg(z) = {arg_deg:.1f}° ≈ {arg_rad:.3f} rad'
+    arg_text = f'arg(z) = {arg_rad:.3f} rad ({arg_deg:.1f}°) '
     ax.text(0.02, 0.98, arg_text, transform=ax.transAxes, fontsize=10, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.7),
             verticalalignment='top')
     
     # Mark quadrant
-    quadrant_names = ['I: 0° to 90°', 'II: 90° to 180°', 'III: -180° to -90°', 'IV: -90° to 0°']
+    quadrant_names = ['Quadrant I: 0 to $\\frac{\\pi}{2}$ rad (0° to 90°)', 'Quadrant II: $\\frac{\\pi}{2}$ rad to $\\pi$ rad (90° to 180°)', 'Quadrant III: -$\\pi$ rad to -$\\frac{\\pi}{2}$ rad (-180° to -90°)', 'Quadrant IV: -$\\frac{\\pi}{2}$ rad to 0 rad (-90° to 0°)']
     ax.text(0.02, 0.88, quadrant_names[ax_idx], transform=ax.transAxes, fontsize=9, style='italic',
             bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.5))
 
