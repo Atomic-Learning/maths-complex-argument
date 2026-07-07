@@ -15,4 +15,4 @@ Notice that:
 
 # Principal Value
 
-The argument of a complex number is **multi-valued** because adding any multiple of $2\pi$ radians (or $360°$) gives the same point on the plane. The **principal value** of the argument is the unique value in the range $(-180°, 180°]$ or $(-\pi, \pi]$ radians.
+The argument of a complex number is **multi-valued** because adding any multiple of $2\pi$ radians (or $360°$) gives the same point on the plane. The **principal value** of the argument is the one which is normally used and is the unique value in the range $(-180°, 180°]$ or $(-\pi, \pi]$ radians.
