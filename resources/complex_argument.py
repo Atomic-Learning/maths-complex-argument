@@ -28,9 +28,9 @@ for idx, (real, imag, label, ax_idx) in enumerate(examples):
     ax.axvline(x=0, color='k', linewidth=1.5)
     
     # Axis labels
-    ax.set_xlabel('Re', fontsize=11, fontweight='bold')
-    ax.set_ylabel('Im', fontsize=11, fontweight='bold')
-    ax.tick_params(labelsize=9)
+    ax.set_xlabel('Re', fontsize=17, fontweight='bold')
+    ax.set_ylabel('Im', fontsize=17, fontweight='bold')
+    ax.tick_params(labelsize=14)
     
     # Draw radius line
     r = np.sqrt(real**2 + imag**2)
@@ -57,21 +57,21 @@ for idx, (real, imag, label, ax_idx) in enumerate(examples):
     else:
         angle_label_x = 1.1 * np.cos(arg_rad / 2)
         angle_label_y = 1.1 * np.sin(arg_rad / 2)
-    ax.text(angle_label_x, angle_label_y, r'$\arg(z)$', fontsize=11, color='blue', fontweight='bold')
+    ax.text(angle_label_x, angle_label_y, r'$\arg(z)$', fontsize=17, color='blue', fontweight='bold')
     
     # Label the point
-    ax.text(real + 0.3, imag - 0.3, label, fontsize=11, fontweight='bold',
+    ax.text(real + 0.3, imag - 0.3, label, fontsize=17, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7))
     
     # Show computed argument
     arg_text = f'arg(z) = {arg_rad:.3f} rad ({arg_deg:.1f}°) '
-    ax.text(0.02, 0.98, arg_text, transform=ax.transAxes, fontsize=10, fontweight='bold',
+    ax.text(0.02, 0.98, arg_text, transform=ax.transAxes, fontsize=15, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.7),
             verticalalignment='top')
     
     # Show quadrant label
     quadrant_labels = ['Quadrant I', 'Quadrant II', 'Quadrant III', 'Quadrant IV']
-    ax.text(0.98, 0.02, quadrant_labels[ax_idx], transform=ax.transAxes, fontsize=11, fontweight='bold',
+    ax.text(0.98, 0.02, quadrant_labels[ax_idx], transform=ax.transAxes, fontsize=17, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7),
             verticalalignment='bottom', horizontalalignment='right')
 
