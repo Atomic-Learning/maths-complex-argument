@@ -18,3 +18,12 @@ The formula used to calculate the argument of a complex number $z = x + iy$ depe
 - **Quadrant II**: $\arg(z) = \pi + \tan^{-1}\left(\frac{y}{x}\right)$ returns [$\pi/2$, $\pi$]
 - **Quadrant III**: $\arg(z) = -\pi + \tan^{-1}\left(\frac{y}{x}\right)$ returns [-$\pi$, -$\pi/2$]
 - **Quadrant IV**: $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$ returns [-$\pi/2$, 0]
+
+In addition:
+
+- A pure imaginary number (where $x = 0$) has an argument of:
+  - $\pi/2$ if $y > 0$
+  - $-\pi/2$ if $y < 0$.
+- A pure real number (where $y = 0$) has an argument of:
+  - $0$ if $x > 0$
+  - $\pi$ if $x < 0$.
