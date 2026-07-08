@@ -22,8 +22,8 @@ The formula used to calculate the argument of a complex number $z = x + iy$ depe
 In addition:
 
 - A pure imaginary number (where $x = 0$) has an argument of:
-  - $\pi/2$ if $y > 0$
-  - $-\pi/2$ if $y < 0$.
+    - $\pi/2$ if $y > 0$
+    - $-\pi/2$ if $y < 0$.
 - A pure real number (where $y = 0$) has an argument of:
-  - $0$ if $x > 0$
-  - $\pi$ if $x < 0$.
+    - $0$ if $x > 0$
+    - $\pi$ if $x < 0$.
