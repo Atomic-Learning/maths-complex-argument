@@ -68,6 +68,12 @@ for idx, (real, imag, label, ax_idx) in enumerate(examples):
     ax.text(0.02, 0.98, arg_text, transform=ax.transAxes, fontsize=10, fontweight='bold',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.7),
             verticalalignment='top')
+    
+    # Show quadrant label
+    quadrant_labels = ['Quadrant I', 'Quadrant II', 'Quadrant III', 'Quadrant IV']
+    ax.text(0.98, 0.02, quadrant_labels[ax_idx], transform=ax.transAxes, fontsize=11, fontweight='bold',
+            bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7),
+            verticalalignment='bottom', horizontalalignment='right')
 
 plt.tight_layout()
 plt.savefig('complex-argument.png', dpi=150, bbox_inches='tight', facecolor='white')
