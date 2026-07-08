@@ -9,7 +9,7 @@
         "maths",
         "complex-analysis"
     ],
-    "duration": 3,
+    "duration": 4,
     "prerequisites": [
         "maths-complex-plane",
         "maths-interval-notation",
