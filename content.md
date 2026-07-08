@@ -27,3 +27,5 @@ In addition:
 - A pure real number (where $y = 0$) has an argument of:
     - $0$ if $x > 0$
     - $\pi$ if $x < 0$.
+
+The value 0 does not have a defined argument, as it does not point in any direction.
