@@ -11,7 +11,9 @@
     "duration": 3,
     "prerequisites": [
         "maths-complex-plane",
-        "maths-interval-notation"
+        "maths-interval-notation",
+        "maths-arcsin-arccos-arctan",
+        "maths-right-angled-triangles-trigonometric-functions"
     ],
     "related": [
         "maths-complex-modulus",
