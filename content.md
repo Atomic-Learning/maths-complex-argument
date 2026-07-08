@@ -10,18 +10,11 @@ On the complex plane, imagine a ray starting at the origin and pointing to the c
 
 The argument of a complex number is **multi-valued** because adding any multiple of $2\pi$ radians (or $360°$) gives the same point on the plane. The **principal value** of the argument is the one which is normally used and is the unique value in the range $(-180°, 180°]$ or $(-\pi, \pi]$ radians.
 
-Notice that:
-
-- In **Quadrant I** (positive real and imaginary parts), the argument is between $0$ to $\pi/2$ radians (0° to 90°)
-- In **Quadrant II** (negative real, positive imaginary), the argument is between $\pi/2$ to $\pi$ radians (90° to 180°)
-- In **Quadrant III** (negative real and imaginary), the argument is between $-\pi$ to $-\pi/2$ radians (-180° to -90°)
-- In **Quadrant IV** (positive real, negative imaginary), the argument is between $-\pi/2$ to $0$ radians (-90° to 0°)
-
 # Calculating the Argument
 
 The formula used to calculate the argument of a complex number $z = x + iy$ depends on which quadrant the complex number lies in:
 
-- **Quadrant I**: $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$
-- **Quadrant II**: $\arg(z) = \pi + \tan^{-1}\left(\frac{y}{x}\right)$
-- **Quadrant III**: $\arg(z) = -\pi + \tan^{-1}\left(\frac{y}{x}\right)$
-- **Quadrant IV**: $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$
+- **Quadrant I**: $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$ returns [0, $\pi/2$]
+- **Quadrant II**: $\arg(z) = \pi + \tan^{-1}\left(\frac{y}{x}\right)$ returns [$\pi/2$, $\pi$]
+- **Quadrant III**: $\arg(z) = -\pi + \tan^{-1}\left(\frac{y}{x}\right)$ returns [-$\pi$, -$\pi/2$]
+- **Quadrant IV**: $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$ returns [-$\pi/2$, 0]
